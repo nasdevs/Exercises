@@ -2,6 +2,7 @@
 @name : exercise 1st
 @author : Nasrullah
 @url github : https://github.com/nasdevs
+@url repository : https://github.com/nasdevs/exercises-and-solution
 */ 
 
 #include <iostream>
