@@ -6,8 +6,8 @@
 '''
 
 accounts = [
-    {"username": "test", "password": "pass"},
-    {"username": "test2", "password": "pass2"}
+    {"username": "user", "password": "pass"},
+    {"username": "admin", "password": "pass"}
 ]
 
 def login(username, password):
@@ -40,6 +40,8 @@ while (loop.lower() == 'y'):
     print('Login Succes')
     print('Selamat Datang di Menu Entri Data Gaji Pegawai')
     print('==============================================')
+    
+    #input
     noPegawai = int(input('Nomor Pegawai       : '))
     namaPegawai = str(input('Nama Pegawai        : '))
     gol = str(input('Gol                 : '))
@@ -66,12 +68,12 @@ while (loop.lower() == 'y'):
     # output
     print('\nInformasi Entri Edata Gaji Pegawai')
     print('==================================')
-    print('No Pegawai          : ', noPegawai)
-    print('Nama Pegawai        : ', namaPegawai)
-    print('Gol                 : ', gol)
-    print('Gapok               : ', gapok)
-    print('Lembur (jam)        : ', lembur)
-    print('Pot Pajak           : ', pajak)
-    print('Gaji Bersih         : ', gaji)
+    print('No Pegawai          :', noPegawai)
+    print('Nama Pegawai        :', namaPegawai)
+    print('Gol                 :', gol)
+    print('Gapok               : Rp.', gapok)
+    print('Lembur (jam)        : Rp.', lembur)
+    print('Pot Pajak           : Rp.', int(pajak))
+    print('Gaji Bersih         : Rp.', int(gaji))
     
     loop = str(input('Masih ada data [y/n] : '))
