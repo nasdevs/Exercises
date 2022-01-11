@@ -14,8 +14,8 @@ int main() {
 
     for (int i = 1; i <= limit; i++) {
         for (int j = i; j < limit+i; j++) {
-            for (int k = i, l = 0; k <= j; k++, l++) {
-                int output = (k > limit) ? l : k;
+            for (int k = i; k <= j; k++) {
+                int output = (k > limit) ? k-limit : k;
                 cout << output << " ";
             }
             cout << endl;
