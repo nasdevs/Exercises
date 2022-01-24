@@ -1,3 +1,10 @@
+/* 
+@name : exercise 6th
+@author : Nasrullah
+@url github : https://github.com/nasdevs
+@url repository : https://github.com/nasdevs/exercises-and-solution
+*/ 
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -9,7 +16,7 @@ bool check_prima(int n) {
 }
 
 int main() {
-    int size = 5;
+    int size = 20;
     int numbers[size] = {};
     bool results[size] = {};
 
